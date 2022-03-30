@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background: #995c63;
+	height: 80px;
+}
+@font-face{
+	font-family: fuente;
+	src: url(/fuentes/Raleway.ttf);
+}
+.ancho{
+	width: 92%;
+	height: 80px;
+	margin: auto;
+}
+.logo{
+	width: 6%;
+	height: 80px;
+	background: blue;
+	float: left;
+	box-sizing: border-box;
+}
+.logo p a{	
+	color: #fff;
+	font-size: 10px;
+	text-decoration: none;
+}
+.logo2{
+	width: 12%;
+	height: 80px;
+	float: left;
+	box-sizing: border-box;
+	padding: 30px;
+    font-family: fuente;
+}
+.logo2 p a{
+	color: rgb(255, 217, 0);
+	font-size: 24px;
+	text-decoration: none;
+	font-family: fuente;
+}
+
+nav{
+	width: 82%;
+	height: 80px;
+	float: left;
+	text-align: right;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	color: #fff;
+	size: 8px;
+	padding: 5px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	font-family: fuente;
+}
+nav ul li a:hover{
+	color: #444;
+}
+
+.anchoF{
+	width: 100%;
+	background: #995c63;
+	height: 80px;
+}
+.anchoF p{
+	font-family: fuente;
+	size: 15px;
+	text-align: center;
+	padding: 30px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #fff;
+}
+iframe{
+	width: 93%;
+	height: 750px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+input[name="slider-select-element"] {
+    display: none;
+}
+
+#slider-arrows {
+    margin: -10% auto 0 auto;
+    width: 90%;
+}
+
+#slider-box {
+    height: 100%;
+    width: 300%;
+}
+
+#slider-container {
+    height: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    width: 90%;
+}
+
+.element-red,
+.element-green {
+    min-height: 400px;
+    max-height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.element-blue{
+    height: 100px;
+}
+
+.element-red, .element-blue, .element-green {
+    background: transparent  ;
+}
+
+.slider-element {
+    float: left;
+    width: 33.333%;
+}
+
+#element1:checked ~ #slider-arrows label:nth-child(2),
+#element3:checked ~ #slider-arrows label:nth-child(1),
+#element2:checked ~ #slider-arrows label:nth-child(3) {
+    color: transparent  ;
+    content: "\f054";
+    font-family: font;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    display: block;
+    float: right;
+}
+
+#element1:checked ~ #slider-arrows label:nth-child(3),
+#element2:checked ~ #slider-arrows label:nth-child(1),
+#element3:checked ~ #slider-arrows label:nth-child(2) {
+    color: transparent  ;
+    content: "\f054";
+    font-style: font;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    display: block;
+    float: left;
+}
+
+
+#element1:checked ~ #slider-container #slider-box {
+    margin-left: 0;
+}
+
+#element2:checked ~ #slider-container #slider-box {
+    margin-left: -100%;
+}
+
+#element3:checked ~ #slider-container #slider-box {
+    margin-left: -200%;
+}
+
+#slider-arrows label {
+    color: transparent;
+    cursor: pointer;
+    display: none;
+    font-size: 2rem;
+    height: 20px;
+    width: 20px;
+}
+
+#slider-box {
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+}
+
+.table .row{
+    text-align: left;
+}
+
+.cant{
+    text-align: right;
+    text-decoration: solid;
+    font-family: font;
+    size: 18px;
+}
+
+.card{
+    border-radius: 1rem;
+    width: 800px;
+    height: 600px;
+    right: 150px;
+    background-color: transparent;
+}
+
+.fw-bold, .form-outline, .form-outline{
+    font-family: font;
+}
+
+a button{
+    font-family: font;
+}
+
+div p{
+    font-family: font;
+}
